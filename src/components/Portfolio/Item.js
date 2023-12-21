@@ -5,7 +5,7 @@ const Item = ({item}) => {
     <div className = "card" key = {item.id}>
       <img src = {item.img} alt = ''/>
       <p>{item.id}</p>
-      <a href = {item.code} target = "_blank">
+      <a href = {item.code} target = "_blank" rel="noreferrer">
           Code <i class="uil uil-arrow-right"></i>
       </a>
     </div>
