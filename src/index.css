@@ -1,0 +1,74 @@
+/* GOOGLE FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
+
+:root {
+
+    --header-height: 3rem;
+
+    /* COLORS */
+    --container-color: #c7beaa;
+    --text-color: #2e2b27;
+    --background-color: #fff8ea;
+
+    /* FONT */
+    --body-font: 'Wix Madefor Display', sans-serif;
+
+    --title-font-size: 4.5rem;
+    --header-font-size: 4.2rem;
+    --big-font-size: 3rem;
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.2rem;
+    --normal-font-size: 1rem;
+    --smaill-font-size: 0.8rem;
+
+    --font-semi-bold: 600;
+
+}
+
+/* BASE */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: var(--body-font);
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+h1, h2, h3 {
+    color: var(--text-color); 
+    font-weight: var(--font-semi-bold );
+}
+
+ul {
+    list-style: none;
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
