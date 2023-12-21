@@ -12,10 +12,10 @@ const Hero = () => {
             </div>
 
             <div className = "social">
-                <a className = "icon" href = "https://github.com/" target = "_blank">
+                <a className = "icon" href = "https://github.com/" target = "_blank" rel="noreferrer">
                     <i class="uil uil-github"></i>
                 </a>
-                <a className = "icon" href = "https://www.linkedin.com/in/rosie-khurmi-62b20a210/" target = "_blank">
+                <a className = "icon" href = "https://www.linkedin.com/in/rosie-khurmi-62b20a210/" target = "_blank" rel="noreferrer">
                     <i class="uil uil-linkedin"></i>
                 </a>
             </div>
