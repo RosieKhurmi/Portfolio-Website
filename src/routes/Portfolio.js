@@ -5,10 +5,10 @@ import Works from '../components/Portfolio/Works';
 
 const Portfolio = () => {
   return (
-    <div>
+    <>
       <Navbar/>
       <Works/>
-    </div>
+    </>
   )
 }
 
