@@ -1,5 +1,7 @@
 import "./Hero.css";
 import React from 'react';
+import RResume from "../../assests/Resume.pdf"
+
 const Hero = () => {
 
     return (
@@ -8,7 +10,7 @@ const Hero = () => {
             <div className = "intro">
                 <h1>ROSIE KHURMI.</h1>
                 <p>Computer Science Student</p>
-                <button href  download>Resume</button>
+                <button href download><a href = {RResume}>Resume</a></button>
             </div>
 
             <div className = "social">
