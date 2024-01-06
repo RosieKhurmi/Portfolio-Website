@@ -20,7 +20,7 @@
     font-size: 1.9rem;
 }
 
-.intro button {
+.intro a {
     padding: 1rem;
     font-size: var(--h2-font-size);
     background-color: var(--container-color);

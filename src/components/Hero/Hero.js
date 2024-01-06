@@ -10,7 +10,7 @@ const Hero = () => {
             <div className = "intro">
                 <h1>ROSIE KHURMI.</h1>
                 <p>Computer Science Student</p>
-                <button href download><a href = {RResume}>Resume</a></button>
+                <a href = {RResume}>Resume</a>
             </div>
 
             <div className = "social">
