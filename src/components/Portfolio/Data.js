@@ -2,6 +2,7 @@ import Cal from "../../assests/Code/Calendar.PNG"
 import TicTacToe from "../../assests/Code/TicTacToe.PNG"
 import Music from "../../assests/Code/DataAnalysis.png"
 import MusicCode from "../../assests/MusicAnalysis.ipynb"
+import PantryPal from "../../assests/Code/PantryPal.png"
 
 export const projectsData = [
 
@@ -22,8 +23,13 @@ export const projectsData = [
         code: MusicCode,
         type: 'Projects',
         img: Music
+    }, 
+    {
+        id: 'PantryPal',
+        code: 'https://github.com/smutharasan/PantryPal.git',
+        type: 'Projects',
+        img: PantryPal
     },
-
 
 ];
 
