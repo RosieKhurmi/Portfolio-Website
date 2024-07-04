@@ -27,7 +27,7 @@ const Navbar = () => {
         <ul className = {click ? ("nav_menu active") : ("nav_menu")}>
             <li><Link to = "/"> Home </Link></li>
             {/* <li><Link to = "/Experience"> Experience </Link></li> */}
-            <li><Link to = "/Portfolio"> Portfolio </Link></li>
+            <li><Link to = "/Projects"> Projects </Link></li>
         </ul>
         <div className = "hamburger" onClick = {handleClick}>
             {click ? (<FaTimes size = {35} sstyle = {{color: "#eae4d7"}}/>
