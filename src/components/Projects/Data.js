@@ -1,10 +1,4 @@
-import Cal from "../../assests/Code/Calendar.PNG"
-import TicTacToe from "../../assests/Code/TicTacToe.PNG"
-import Music from "../../assests/Code/DataAnalysis.png"
-import MusicCode from "../../assests/MusicAnalysis.ipynb"
-import PantryPal from "../../assests/Code/PantryPal.png"
-
-const types = ['Software', 'AR/VR', 'Artificial Intelligence', 'Data Analysis']
+const types = ['Software', 'AR/VR', 'AI/ML', 'Data Analysis']
 
 export const projectsData = [
 
@@ -12,26 +6,27 @@ export const projectsData = [
         id: 'Calendar',
         code: 'https://github.com/RosieKhurmi/Calendar.git',
         type: types[0],
-        img: Cal
+        img: "../../assests/Code/Calendar.PNG"
     },
     {
         id: 'Tic Tac Toe',
         code: 'https://github.com/RosieKhurmi/Tic-Tac-Toe',
-        type: types[0],
-        img: TicTacToe
+        type: types[2],
+        img: "../../assests/Code/TicTacToe.PNG"
     },
-    {
-        id: 'Music Analysis',
-        code: MusicCode,
-        type: types[3],
-        img: Music
-    }, 
+    
     {
         id: 'PantryPal',
         code: 'https://github.com/smutharasan/PantryPal.git',
         type: types[2],
-        img: PantryPal
+        img: "../../assests/Code/PantryPal.png"
     },
+    {
+        id: 'Music Analysis',
+        code: "../../assests/MusicAnalysis.ipynb",
+        type: types[3],
+        img: "../../assests/Code/DataAnalysis.png"
+    }, 
 
 ];
 
