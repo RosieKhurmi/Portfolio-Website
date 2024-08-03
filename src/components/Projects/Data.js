@@ -3,10 +3,11 @@ import TicTacToeImg from '../../assets/Code/TicTacToe.PNG';
 import PantryPalImg from '../../assets/Code/PantryPal.png';
 import DataAnalysisImg from '../../assets/Code/DataAnalysis.png';
 import SMSImg from '../../assets/Code/SMS.png';
-import ChatImg from '../../assets/Code/Chat.PNG';
+// import ChatImg from '../../assets/Code/Chat.PNG';
 import MovieImg from '../../assets/Code/Movie.PNG';
 import CFDSimulationImg from '../../assets/Code/CFDSimulator.png';
 import ASLTranslatorImg from '../../assets/Code/ASLTranslator.png';
+import CVForgeImg from '../../assets/Code/CVForge.png';
 
 const types = ['Software', 'AR/VR', 'AI/ML', 'Data Analysis']
 
@@ -66,7 +67,7 @@ export const projectsData = [
         id: 'CVForge',
         code: 'https://github.com/CVForgeOrg',
         type: types[2],
-        img: MovieImg
+        img: CVForgeImg
     }, 
 
 ];
