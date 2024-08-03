@@ -1,6 +1,6 @@
 import "./Hero.css";
 import React from 'react';
-import RResume from "../../assests/Resume.pdf"
+import RResume from "../../assets/Resume.pdf"
 
 const Hero = () => {
 
