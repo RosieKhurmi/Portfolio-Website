@@ -46,8 +46,8 @@ export const projectsData = [
         img: DataAnalysisImg
     }, 
     {
-        id: 'Spam Detector',
-        code: "https://github.com/RosieKhurmi/SpamDetector.git",
+        id: 'SMS Spam Detector',
+        code: "https://github.com/RosieKhurmi/SMSDetector.git",
         type: [types[2], types[3]],
         img: SMSImg
     },
