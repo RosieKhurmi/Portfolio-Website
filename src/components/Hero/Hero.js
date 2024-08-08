@@ -1,6 +1,6 @@
 import "./Hero.css";
 import React from 'react';
-import RResume from "../../assets/Resume.pdf"
+// import RResume from "../../assets/Resume.pdf"
 
 const Hero = () => {
 
@@ -10,7 +10,7 @@ const Hero = () => {
             <div className = "intro">
                 <h1>ROSIE KHURMI.</h1>
                 <p>Computer Science Student</p>
-                <a href = {RResume}>Resume</a>
+                {/* <a href = {RResume}>Resume</a> */}
             </div>
 
             <div className = "social">
