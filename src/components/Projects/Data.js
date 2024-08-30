@@ -35,7 +35,7 @@ export const projectsData = [
     },
     {
         id: 'CFD Simulator Interface',
-        code: '',
+        code: "https://engineering.ontariotechu.ca/current-students/current-undergraduate/clubs_and_societies/ontario-tech-racing.php",
         type: types[0],
         img: CFDSimulationImg
     },
@@ -53,7 +53,7 @@ export const projectsData = [
     },
     {
         id: 'Sign Translator',
-        code: "https://github.com/rkhurmi/Sign_Translator",
+        code: "https://github.com/RosieKhurmi/SignTranlsator",
         type: types[1],
         img: ASLTranslatorImg
     }, 
