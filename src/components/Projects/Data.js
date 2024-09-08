@@ -8,8 +8,9 @@ import MovieImg from '../../assets/Code/Movie.PNG';
 import CFDSimulationImg from '../../assets/Code/CFDSimulator.png';
 import ASLTranslatorImg from '../../assets/Code/ASLTranslator.png';
 import CVForgeImg from '../../assets/Code/CVForge.png';
+import PacmanImg from '../../assets/Code/Pacman.png';
 
-const types = ['Software', 'AR/VR', 'AI/ML', 'Data Analysis']
+const types = ['Software', 'AR/VR', 'AI/ML', 'Data Analysis', 'Games']
 
 // Add chat
 
@@ -24,7 +25,7 @@ export const projectsData = [
     {
         id: 'Tic Tac Toe',
         code: 'https://github.com/RosieKhurmi/Tic-Tac-Toe',
-        type: types[2],
+        type: types[4],
         img: TicTacToeImg
     },
     {
@@ -69,6 +70,12 @@ export const projectsData = [
         type: types[2],
         img: CVForgeImg
     }, 
+    {
+        id: 'Pacman',
+        code: 'https://github.com/RosieKhurmi/Pacman',
+        type: types[4],
+        img: PacmanImg
+    }
 
 ];
 
@@ -88,6 +95,9 @@ export const projectsNav = [
     },
     {
         name: types[3]
+    },
+    {
+        name: types[4]
     },
 
 ];
