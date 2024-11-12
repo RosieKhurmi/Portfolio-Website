@@ -12,39 +12,30 @@ const About = () => {
       <div className = 'content'>
 
         <div className='des'>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
-          elit. Morbi nec erat id massa laoreet sollicitudin in 
-          at metus. Nunc pellentesque ultricies est rutrum 
-          dignissim. Proin neque tellus, congue in mi in, 
-          semper pharetra mauris. Cras luctus eros sit amet 
-          mollis aliquam. Ut accumsan urna lacus, id iaculis 
-          tellus interdum nec. Quisque tempor erat leo, a 
-          consectetur ex ornare eget. Curabitur scelerisque lacinia odio at 
-          aliquam. In ac enim non dui feugiat porttitor at mollis orci. Fusce 
-          pellentesque placerat sollicitudin.</p>
+          <p>Hi! I am Rosie Khurmi, a third-year computer science 
+            student at Ontario Tech University with a 
+            passion for coding, problem-solving, mathematics and learning. 
+            I have been coding since high school, constantly exploring new ways 
+            to use technology to solve complex problems.</p>
           <br></br>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing 
-          elit. Morbi nec erat id massa laoreet sollicitudin in 
-          at metus. Nunc pellentesque ultricies est rutrum 
-          dignissim. Proin neque tellus, congue in mi in, 
-          semper pharetra mauris. Cras luctus eros sit amet 
-          mollis aliquam. Ut accumsan urna lacus, id iaculis 
-          tellus interdum nec. Quisque tempor erat leo, a 
-          consectetur ex ornare eget. Curabitur scelerisque lacinia odio at 
-          aliquam. In ac enim non dui feugiat porttitor at mollis orci. Fusce 
-          pellentesque placerat sollicitudin.</p>
+          <p>What excites me most is the thrill of solving challenging problems 
+            and finding effective solutions, especially when
+            they requre a technical and creative approach. I am passionate 
+            about the power of learning and teaching, either to grasp new 
+            concepts or share my current knowledge. I am constantly driven 
+            by a curiosity for lifelong growth and learning.</p>
         </div>
 
         <div className = "skills">
-
-          <h2>Skills</h2>
+          <span role="img" aria-label="waving hand">👋</span>
+          {/* <h2>Skills</h2>
           <ul>
             <li>Item 1 - Basic</li>
             <li>Item 2 - Basic</li>
             <li>Item 3 - Basic</li>
             <li>Item 4 - Basic</li>
             <li>Item 5 - Basic</li>
-          </ul>
+          </ul> */}
 
         </div>
 

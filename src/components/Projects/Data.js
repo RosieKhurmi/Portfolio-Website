@@ -49,7 +49,7 @@ export const projectsData = [
     {
         id: 'SMS Spam Detector',
         code: "https://github.com/RosieKhurmi/SMSDetector.git",
-        type: [types[2], types[3]],
+        type: types[2],
         img: SMSImg
     },
     {

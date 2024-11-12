@@ -22,14 +22,41 @@
     width: 600px;
 }
 
-.skills {
-    background-color: var(--container-color);
-    padding: 2.5rem;
-    width: 350px;
-    border-radius: 20px;
+.des p {
+    font-size: var(--h3-font-size);
+    padding-bottom: 1rem;
 }
 
-.skills h2 {
+.skills {
+    display: inline-block;
+    animation: wave 1s infinite ease-in-out;
+    transform-origin: 50% 50%;
+}
+
+.skills span {
+    font-size: 150px;
+    padding-bottom: 1rem;
+}
+
+@keyframes wave {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(10deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(-10deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+}
+
+/* .skills h2 {
     text-align: center;
     padding-bottom: 2rem;
     font-size: var(--h1-font-size);
@@ -38,7 +65,7 @@
 .skills li {
     padding-bottom: 1rem;
     font-size: var(--h3-font-size);
-}
+} */
 
 @media screen and (max-width: 767px) { 
 
