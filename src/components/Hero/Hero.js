@@ -12,7 +12,7 @@ const Hero = () => {
                 <div className="typewriter">
                     <p>Computer Science Student</p>
                 </div>
-                <a href = {RResume} target="_blank">Resume</a>
+                <a href = {RResume} target="_blank" rel="noopener noreferrer">Resume</a>
             </div>
 
             <div className = "social">
