@@ -1,24 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.3f4a8ba8.css",
-    "main.js": "/Portfolio-Website/static/js/main.6bea4169.js",
+    "main.css": "/Portfolio-Website/static/css/main.f84b3853.css",
+    "main.js": "/Portfolio-Website/static/js/main.938abaed.js",
     "static/media/DataAnalysis.png": "/Portfolio-Website/static/media/DataAnalysis.71d954c071a376dbbb25.png",
     "static/media/CFDSimulator.png": "/Portfolio-Website/static/media/CFDSimulator.cc377885b16db4468b68.png",
     "static/media/TicTacToe.PNG": "/Portfolio-Website/static/media/TicTacToe.808161c9ce4621d5edf5.PNG",
-    "static/media/Movie.PNG": "/Portfolio-Website/static/media/Movie.8bb12f6e3c40fa652f7d.PNG",
-    "static/media/CVForge.png": "/Portfolio-Website/static/media/CVForge.9930d2d68fd5582dd73b.png",
     "static/media/SMS.png": "/Portfolio-Website/static/media/SMS.1830024816b9cb02f198.png",
-    "static/media/Pacman.png": "/Portfolio-Website/static/media/Pacman.c94af0a76070dafa9efe.png",
     "static/media/PantryPal.png": "/Portfolio-Website/static/media/PantryPal.f5c610df8ec64d22816d.png",
     "static/media/Calendar.PNG": "/Portfolio-Website/static/media/Calendar.b3c256689cc41ca56a74.PNG",
-    "static/media/ASLTranslator.png": "/Portfolio-Website/static/media/ASLTranslator.086b97b7a7067ad0570e.png",
-    "static/media/Resume.pdf": "/Portfolio-Website/static/media/Resume.f99bcbca153bdd5afb51.pdf",
+    "static/media/Resume.pdf": "/Portfolio-Website/static/media/Resume.5e38658178336f69b5f1.pdf",
     "index.html": "/Portfolio-Website/index.html",
-    "main.3f4a8ba8.css.map": "/Portfolio-Website/static/css/main.3f4a8ba8.css.map",
-    "main.6bea4169.js.map": "/Portfolio-Website/static/js/main.6bea4169.js.map"
+    "main.f84b3853.css.map": "/Portfolio-Website/static/css/main.f84b3853.css.map",
+    "main.938abaed.js.map": "/Portfolio-Website/static/js/main.938abaed.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f4a8ba8.css",
-    "static/js/main.6bea4169.js"
+    "static/css/main.f84b3853.css",
+    "static/js/main.938abaed.js"
   ]
 }
