@@ -33,13 +33,13 @@ const Navbar = () => {
 
   return (
     <div className={color ? "header header-bg" : "header"}>
-      <a onClick={() => scrollToSection("home")} className="nav_logo">Khurmi.</a>
+      <button onClick={() => scrollToSection("home")} className="nav_logo">Khurmi.</button>
       <ul className={click ? "nav_menu active" : "nav_menu"}>
         <li>
-          <a onClick={() => scrollToSection("home")} className={activeNav === "home" ? "active" : ""}>Home</a>
+          <button onClick={() => scrollToSection("home")} className={activeNav === "home" ? "active" : ""}>Home</button>
         </li>
         <li>
-          <a onClick={() => scrollToSection("projects")} className={activeNav === "projects" ? "active" : ""}>Projects</a>
+          <button onClick={() => scrollToSection("projects")} className={activeNav === "projects" ? "active" : ""}>Projects</button>
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
