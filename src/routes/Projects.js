@@ -5,10 +5,10 @@ import Works from '../components/Projects/Works';
 
 const Projects = () => {
   return (
-    <>
+    <section id="projects">
       <Navbar/>
       <Works/>
-    </>
+    </section>
   )
 }
 

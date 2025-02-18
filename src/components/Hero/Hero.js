@@ -22,6 +22,9 @@ const Hero = () => {
                 <a className = "icon" href = "https://www.linkedin.com/in/rosie-khurmi-62b20a210/" target = "_blank" rel="noreferrer">
                     <i class="uil uil-linkedin"></i>
                 </a>
+                <a className="icon" href="mailto:khurmirosie@gmail.com" rel="noreferrer">
+                     <i class="uil uil-envelope"></i>
+                </a>
             </div>
 
         </div>
