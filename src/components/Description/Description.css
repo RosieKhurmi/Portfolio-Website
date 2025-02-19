@@ -1,0 +1,43 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 2rem;   
+    justify-content: center; 
+    column-gap: 3rem;
+}
+
+.des {
+    width: 600px;
+}
+
+.des h2 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.des p {
+    font-size: var(--h3-font-size);
+    padding-bottom: 1rem;
+}
+
+.headshot img {
+    width: 400px;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 767px) { 
+
+    .content {
+        flex-direction: column-reverse;
+        padding-bottom: 1.5rem;
+        gap: 2rem;
+    }
+
+    .des {
+        text-align: center;
+        width: fit-content;
+    }
+
+}
+

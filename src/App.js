@@ -1,16 +1,18 @@
 import React from "react";
 import "./index.css";
 
-import Home from "./routes/Home";
-import Projects from "./routes/Projects";
 import Navbar from "./components/Navbar/Navbar";
+import Home from "./features/Home/Home";
+import About from "./features/About/About";
+import Projects from "./features/Projects/Projects";
 
 function App() {
   return (
     <>
-      <Navbar/>
-      <Home/>
-      <Projects/>
+      <Navbar />
+      <Home />
+      <About />
+      <Projects />
     </>
   );
 }

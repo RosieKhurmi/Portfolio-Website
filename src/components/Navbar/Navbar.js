@@ -39,6 +39,9 @@ const Navbar = () => {
           <button onClick={() => scrollToSection("home")} className={activeNav === "home" ? "active" : ""}>Home</button>
         </li>
         <li>
+          <button onClick={() => scrollToSection("about")} className={activeNav === "about" ? "active" : ""}>About</button>
+        </li>
+        <li>
           <button onClick={() => scrollToSection("projects")} className={activeNav === "projects" ? "active" : ""}>Projects</button>
         </li>
       </ul>

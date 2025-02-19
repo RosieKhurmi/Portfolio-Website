@@ -1,0 +1,9 @@
+.about {
+    padding: 5rem 4rem 0rem 4rem;
+}
+
+.about h1 {
+    text-align: center;
+    font-size: var(--header-font-size);
+    padding-top: 3rem;
+}
