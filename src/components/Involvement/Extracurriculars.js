@@ -23,7 +23,8 @@ export const ExtracurricularsDetails = [
     },
     {
         id: ExtracurricularNames[1],  // Ontario Tech Racing
-        text: 'Backend Developer Lead',
+        text: 'Backend Developer Lead | Software Team',
+        description: 'Leading a team of developers to create a CFD simulation interface for the Ontario Tech Racing team',
         projects: [
             {
                 title: 'CFD Simulation Interface',
@@ -36,12 +37,18 @@ export const ExtracurricularsDetails = [
     {
         id: ExtracurricularNames[2],  // Computer Science Club
         text: 'Vice President of Marketing',
+        description: 'Leading a team to create and execute all marketing strategies for the OTU CS Club',
         projects: [
             {
                 title: 'HackHive 2025 Website',
                 code: "https://hackhive.ca/",
                 text: "The HackHive 2025 website, built with Angular and TypeScript, provided students with easy access to essential information and resources, enhancing their hackathon experience by ensuring seamless navigation and accessibility.",
                 img: HackHive
+            }, 
+            {
+                title: 'Marketing Initiatives',
+                code: 'https://linktr.ee/otucsclub',
+                text: 'Created and managed marketing campaigns for the club, including social media posts promotional materials for all club events.',
             }
         ]
     }

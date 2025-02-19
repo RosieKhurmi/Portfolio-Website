@@ -12,6 +12,8 @@ const Involvement = () => {
     <div className="involvement">
       <h2>Involvement</h2>
 
+      <p>Beyond work, I engage in extracurriculars to sharpen my technical and communication skills, connect with the community, and contribute to the community beyond myself through collaboration and knowledge sharing.</p>
+
       <div className="involvement_content">
         {/* Sidebar Menu */}
         <div className="navigation">
@@ -29,7 +31,7 @@ const Involvement = () => {
         {/* Content Display */}
         <div className="information">
           <h2 className="text-2xl font-semibold">{selectedExtracurricular.id}</h2>
-          <p className="text-gray-700 mt-2">{selectedExtracurricular.text}</p>
+          <h3 className="text-gray-700 mt-2">{selectedExtracurricular.text}</h3>
 
           {/* Projects Section */}
           {selectedExtracurricular.projects?.length > 0 && (
@@ -37,9 +39,14 @@ const Involvement = () => {
               {selectedExtracurricular.projects.map((project, index) => (
                 <div key={index} className="project_example">
                   <h3>{project.title}</h3>
-                  {project.year && <p>{project.year}</p>}
+                  {project.year && (
+                    <>
+                      <br />
+                      <p>{project.year}</p>
+                    </>
+                  )}
                   <div className="project_info">
-                    <img src={project.img} alt={project.title} />
+                    {project.img && <img src={project.img} alt={project.title} />}
                     <p>{project.text}</p>
                   </div>
                   <a
