@@ -60,6 +60,10 @@ a {
     color: var(--text-color);
 }
 
+a.visited {
+    color: inherit;
+}
+
 img {
     max-width: 100%;
     height: auto;

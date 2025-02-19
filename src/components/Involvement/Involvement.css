@@ -113,6 +113,24 @@
         width: 95vw;
     }
 
+    .navigation {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start; 
+        align-items: center;
+        max-height: 100px; 
+        overflow-x: auto; 
+        overflow-y: auto; 
+        scrollbar-width: thin; 
+        scrollbar-color: var(--text-color) transparent;
+        min-width: 100%; 
+        white-space: nowrap; 
+        padding-left: 10px; 
+        box-sizing: border-box;
+        border-right: none;
+    }
+
     .navigation::-webkit-scrollbar {
         width: 8px;
     } 
