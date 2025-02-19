@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.9659baeb.css",
-    "main.js": "/Portfolio-Website/static/js/main.4b5c48e5.js",
+    "main.css": "/Portfolio-Website/static/css/main.bdc4cf80.css",
+    "main.js": "/Portfolio-Website/static/js/main.1c966fdf.js",
     "static/media/Headshot.jpg": "/Portfolio-Website/static/media/Headshot.c7f8d374c8f470d35308.jpg",
     "static/media/DataAnalysis.png": "/Portfolio-Website/static/media/DataAnalysis.71d954c071a376dbbb25.png",
     "static/media/TicTacToe.PNG": "/Portfolio-Website/static/media/TicTacToe.808161c9ce4621d5edf5.PNG",
@@ -12,11 +12,11 @@
     "static/media/Resume.pdf": "/Portfolio-Website/static/media/Resume.5e38658178336f69b5f1.pdf",
     "static/media/Racing.jpg": "/Portfolio-Website/static/media/Racing.0ea7ab7d284b6661e520.jpg",
     "index.html": "/Portfolio-Website/index.html",
-    "main.9659baeb.css.map": "/Portfolio-Website/static/css/main.9659baeb.css.map",
-    "main.4b5c48e5.js.map": "/Portfolio-Website/static/js/main.4b5c48e5.js.map"
+    "main.bdc4cf80.css.map": "/Portfolio-Website/static/css/main.bdc4cf80.css.map",
+    "main.1c966fdf.js.map": "/Portfolio-Website/static/js/main.1c966fdf.js.map"
   },
   "entrypoints": [
-    "static/css/main.9659baeb.css",
-    "static/js/main.4b5c48e5.js"
+    "static/css/main.bdc4cf80.css",
+    "static/js/main.1c966fdf.js"
   ]
 }
