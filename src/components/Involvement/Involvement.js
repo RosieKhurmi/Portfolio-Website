@@ -12,8 +12,6 @@ const Involvement = () => {
     <div className="involvement">
       <h2>Involvement</h2>
 
-      <p>Beyond work, I engage in extracurriculars to sharpen my technical and communication skills, connect with the community, and contribute to the community beyond myself through collaboration and knowledge sharing.</p>
-
       <div className="involvement_content">
         {/* Sidebar Menu */}
         <div className="navigation">
