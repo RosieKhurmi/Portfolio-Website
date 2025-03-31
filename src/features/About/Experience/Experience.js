@@ -22,9 +22,25 @@ const Experience = () => {
             <h3
               style={{ color: "#2e2b27", fontSize: "1.5rem", fontWeight: "bold", marginBottom: "0.5rem"}}
             >{job.role}</h3>
-            <h4
-              style={{fontSize: "1.2rem"}}
-            >{job.id}</h4>
+            <a 
+              href={job.link} 
+              target="_blank" 
+              rel="noreferrer"
+              style={{
+                display: "inline-flex", 
+                alignItems: "center",   
+                textDecoration: "none", 
+                fontSize: "1.2rem",
+                fontWeight: "bold",
+                padding: "5px 10px",
+                transition: "background-color 0.3s ease",
+                borderRadius: "5px",
+              }}
+              onMouseEnter={(e) => e.target.style.backgroundColor = "rgba(0, 0, 0, 0.2)"}
+              onMouseLeave={(e) => e.target.style.backgroundColor = "transparent"}
+            > 
+              {job.id}
+            </a>
             <p>
               {job.description}
             </p>

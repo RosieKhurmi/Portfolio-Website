@@ -1,10 +1,12 @@
 import "./Navbar.css";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+
+  const menuRef = useRef(null);
 
   const [color, setColor] = useState(false);
   const changeColor = () => {

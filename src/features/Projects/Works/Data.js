@@ -1,17 +1,20 @@
-import CalendarImg from '../../assets/Code/Calendar.PNG';
-import TicTacToeImg from '../../assets/Code/TicTacToe.PNG';
-import DataAnalysisImg from '../../assets/Code/DataAnalysis.png';
-import SMSImg from '../../assets/Code/SMS.png';
+import CalendarImg from '../../../assets/Code/Calendar.PNG';
+import TicTacToeImg from '../../../assets/Code/TicTacToe.PNG';
+import DataAnalysisImg from '../../../assets/Code/DataAnalysis.png';
+import SMSImg from '../../../assets/Code/SMS.png';
+import PantryPalImg from '../../../assets/Code/PantryPal.png';
+import Racing from '../../../assets/Code/Racing.jpg';
+import HackHive from '../../../assets/Code/HackHive.jpg';
 
 const types = [
     'Software', 
     'AI/ML', 
     'Data Analysis', 
-    'Games'
+    'Games',
+    'Extracurriculars'
 ]
 
 export const projectsData = [
-
     {
         id: 'Calendar',
         code: 'https://github.com/RosieKhurmi/Calendar.git',
@@ -40,6 +43,29 @@ export const projectsData = [
         img: SMSImg, 
         text: 'An SMS spam detector that uses natural language processing (NLP) techniques to classify messages as spam or ham. The detector uses a machine learning model trained on a dataset of SMS messages to predict whether a message is spam or ham.'
     }, 
+    {
+        id: 'HackHive 2025 Website',
+        code: "https://github.com/RosieKhurmi/HackHive",
+        type: types[4],
+        img: HackHive,
+        text: "Built the HackHive 2025 website with Angular & TypeScript, providing intuitive navigation and accessibility for a seamless hackathon experience."
+    }, 
+    {
+        id: "Ontario Tech Racing - Backend Developer Lead",
+        code: "https://engineering.ontariotechu.ca/current-students/current-undergraduate/clubs_and_societies/ontario-tech-racing.php",
+        type: types[4],
+        img: Racing,
+        text: "Leading a team of developers to create a CFD simulation interface for the Ontario Tech Racing team. Developed a FastAPI interface that allows engineers to run computational fluid dynamics simulations on the in-house server."
+    },
+    {
+        id: "Hackhive Hackathon First Place Winner",
+        code: "https://github.com/smutharasan/PantryPal.git",
+        type: types[4],
+        img: PantryPalImg,
+        text: "PantryPal is an AI-powered web app that generates recipes from an ingredients list using React, Azure, OpenAI, and Spoonacular API.",
+    }
+      
+      
 ];
 
 export const projectsNav = [
@@ -59,5 +85,8 @@ export const projectsNav = [
     {
         name: types[3]
     },
+    {
+        name: types[4]
+    }
 
 ];

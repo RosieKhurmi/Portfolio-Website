@@ -1,7 +1,7 @@
 import React from 'react';
 import "./About.css";
-import Description from '../../components/Description/Description';
-import Experience from '../../components/Experience/Experience';
+import Description from './Description/Description';
+import Experience from './Experience/Experience';
 
 const About = () => {
     return (
