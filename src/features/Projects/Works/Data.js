@@ -51,11 +51,11 @@ export const projectsData = [
         text: "Built the HackHive 2025 website with Angular & TypeScript, providing intuitive navigation and accessibility for a seamless hackathon experience."
     }, 
     {
-        id: "Ontario Tech Racing - Backend Developer Lead",
+        id: "Ontario Tech Racing - 2024 - 2025",
         code: "https://engineering.ontariotechu.ca/current-students/current-undergraduate/clubs_and_societies/ontario-tech-racing.php",
         type: types[4],
         img: Racing,
-        text: "Leading a team of developers to create a CFD simulation interface for the Ontario Tech Racing team. Developed a FastAPI interface that allows engineers to run computational fluid dynamics simulations on the in-house server."
+        text: "Initiated and led the backend development of a CFD simulation interface for the Ontario Tech Racing team. Built a FastAPI-based backend granting engineers premission to run computational fluid dynamics simulations on the in-house server."
     },
     {
         id: "Hackhive Hackathon First Place Winner",
