@@ -58,7 +58,7 @@ export const projectsData = [
     {
         id: "StackSketch",
         code: "https://github.com/NightingaleX03/SpurHacks",
-        type: types[4],
+        type: types[1],
         img: StackSketch,
         tech: 'FastAPI, Angular, Gemini, PyTorch, Hugging Face',
         text: "A tool that uses AI to generate software system diagrams based on user prompts",
@@ -66,7 +66,7 @@ export const projectsData = [
     {
         id: "SocialSim",
         code: "https://github.com/hack-the-6ix-2025/SocialSim",
-        type: types[4],
+        type: types[1],
         img: SocialSim,
         tech: 'TwelveLabs summarizer/embedding, Gemini API, Google Cloud, SciKit',
         text: "AI Social Skills Training Platform for Healthcare, Law Enforcement, Education & Social Work Professionals",
