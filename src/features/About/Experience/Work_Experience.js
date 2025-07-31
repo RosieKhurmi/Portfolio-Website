@@ -3,9 +3,9 @@ export const workExperience = [
     {
         id: "Bank of Montreal",
         link: "https://www.bmo.com/en-ca/main/personal/",
-        date: "January 2025 - August 2025",
+        date: "January 2025 - December 2025",
         role: "Software Developer Intern",
-        description: "Optimized BMO’s hybrid application for over 3 million users, enhanching UX, accessibility, analytics, design, and security.",
+        description: "Optimized BMO’s hybrid application for over 3 million users, enhanching UX, accessibility, analytics, design consistency, and security.",
     },
     {
         id: "Software Engineering & Education Research Lab",
