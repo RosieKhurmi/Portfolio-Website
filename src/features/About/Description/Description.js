@@ -1,13 +1,24 @@
 import React from 'react'
 import './Description.css'
-import Headshot from '../../../assets/Headshot.jpg'
+import Headshot from '../../../assets/Headshot.jpeg'
 
 const Description = () => {
 
+  const BAKING_URL = 'https://www.instagram.com/bakinbytes/';
   const points = [
-    "As a computer science student, I have built a strong foundation in theoretical and practical concepts, gaining hands-on experience with various technologies.",
-    "I have worked as a software developer and contributed to research, volunteering, and open-source projects. I am eager to explore new technologies, take on challenges and continue growing as a developer.",
-    "Beyond coding, I enjoy baking, reading, fashion, and design. I am actively seeking opportunities to refine my skills and grow within the industry.",
+    "As a computer science student, I have built a strong foundation in theoretical and practical concepts, gaining hands-on experience with different technologies while exploring design principles through various endeavors.",
+    "I have worked as a software developer and contributed to research, volunteering, and open-source projects. I am eager to explore new technologies, take on challenges and continue growing as a designer and a developer.",
+    <>
+      Beyond coding, I enjoy reading, fashion, being active, design and running a baking account on Instagram <> </>
+      <a 
+        href={BAKING_URL} 
+        target="_blank" 
+        rel="noopener noreferrer"
+        style={{ textDecoration: 'underline' }}
+      >
+        @bakinbytes
+      </a>.
+    </>,
   ]
 
   return (

@@ -9,7 +9,7 @@ const Item = ({item}) => {
         <h3>{item.tech}</h3>
         <p>{item.text}</p>
         <a href = {item.code} target = "_blank" rel="noreferrer">
-            Github<i class="uil uil-arrow-right"></i>
+            {item.label || "GitHub"}<i class="uil uil-arrow-right"></i>
         </a>
       </div>
     </div>

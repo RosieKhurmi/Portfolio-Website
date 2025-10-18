@@ -28,7 +28,8 @@ export const projectsData = [
         type: 'Extracurriculars',
         img: Racing,
         tech: 'Python, FastAPI',
-        text: "Initiated and led the backend development of a CFD simulation interface for the Ontario Tech Racing team. Built a FastAPI-based backend granting engineers premission to run computational fluid dynamics simulations on the in-house server."
+        label: 'Team Page',
+        text: "Led the backend development of the CFD simulation interface for the Ontario Tech Racing team. (Code is not publicly available.)"
     },
     {
         id: "HackHive Hackathon First Place Winner",
