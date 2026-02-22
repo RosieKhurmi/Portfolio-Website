@@ -6,10 +6,9 @@ const Description = () => {
 
   const BAKING_URL = 'https://www.instagram.com/bakinbytes/';
   const points = [
-    "As a computer science student, I have built a strong foundation in theoretical and practical concepts, gaining hands-on experience with different technologies while exploring design principles through various endeavors.",
-    "I have worked as a software developer and contributed to research, volunteering, and open-source projects. I am eager to explore new technologies, take on challenges and continue growing as a designer and a developer.",
+    "I am a software engineer building AI, Simulation and software solutions. I am focused on mastering the architecture of complex systems to develop the transferable skills necessary for building robust systems.",
     <>
-      Beyond coding, I enjoy reading, fashion, being active, design and running a baking account on Instagram <> </>
+      Beyond coding, I enjoy watching movies and TV shows, reading, fashion, fitness, art and design and documenting my baking journey on Instagram <> </>
       <a 
         href={BAKING_URL} 
         target="_blank" 
@@ -17,7 +16,7 @@ const Description = () => {
         style={{ textDecoration: 'underline' }}
       >
         @bakinbytes
-      </a>.
+      </a>
     </>,
   ]
 
