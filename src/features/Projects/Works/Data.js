@@ -1,6 +1,5 @@
 import SMSImg from '../../../assets/Code/SMS.png';
 import PantryPalImg from '../../../assets/Code/PantryPal.png';
-import Racing from '../../../assets/Code/Racing.jpg';
 import HackHive from '../../../assets/Code/HackHive.jpg';
 import SocialSim from '../../../assets/Code/SocialSim.png';
 import StackSketch from '../../../assets/Code/StackSketch.png';
