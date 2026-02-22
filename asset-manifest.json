@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.003f5715.css",
-    "main.js": "/Portfolio-Website/static/js/main.a88ccd8c.js",
+    "main.css": "/Portfolio-Website/static/css/main.74a6e048.css",
+    "main.js": "/Portfolio-Website/static/js/main.4b88882b.js",
     "static/media/HackHive.jpg": "/Portfolio-Website/static/media/HackHive.4d6da7aa2c101123abf1.jpg",
     "static/media/SMS.png": "/Portfolio-Website/static/media/SMS.1830024816b9cb02f198.png",
     "static/media/PantryPal.png": "/Portfolio-Website/static/media/PantryPal.26a8269c4049b3102b34.png",
-    "static/media/Resume.pdf": "/Portfolio-Website/static/media/Resume.0f0128caa5b36ce37dd7.pdf",
+    "static/media/Resume.pdf": "/Portfolio-Website/static/media/Resume.2aff9f70713219f53480.pdf",
+    "static/media/Headshot.jpeg": "/Portfolio-Website/static/media/Headshot.778730abb609dfd660c0.jpeg",
     "static/media/SocialSim.png": "/Portfolio-Website/static/media/SocialSim.96945a0373cfba2ae931.png",
-    "static/media/Headshot.jpeg": "/Portfolio-Website/static/media/Headshot.6fc6e867adc57a1746ea.jpeg",
     "static/media/StackSketch.png": "/Portfolio-Website/static/media/StackSketch.7c84a8ff611db0e9ce39.png",
-    "static/media/Racing.jpg": "/Portfolio-Website/static/media/Racing.0ea7ab7d284b6661e520.jpg",
     "index.html": "/Portfolio-Website/index.html",
-    "main.003f5715.css.map": "/Portfolio-Website/static/css/main.003f5715.css.map",
-    "main.a88ccd8c.js.map": "/Portfolio-Website/static/js/main.a88ccd8c.js.map"
+    "main.74a6e048.css.map": "/Portfolio-Website/static/css/main.74a6e048.css.map",
+    "main.4b88882b.js.map": "/Portfolio-Website/static/js/main.4b88882b.js.map"
   },
   "entrypoints": [
-    "static/css/main.003f5715.css",
-    "static/js/main.a88ccd8c.js"
+    "static/css/main.74a6e048.css",
+    "static/js/main.4b88882b.js"
   ]
 }
