@@ -6,7 +6,7 @@
 
     --header-height: 3rem;
 
-    /* COLORS */
+    /* COLORS - Light Mode */
     --container-color: #c7beaa;
     --text-color: #2e2b27;
     --background-color: #fff8ea;
@@ -28,6 +28,14 @@
 
 }
 
+/* Dark Mode */
+[data-theme="dark"] {
+    --container-color: #443f3a;
+    --text-color: #fff8ea;
+    --background-color: #2e2b27;
+    --accent-color: #3a3632;
+}
+
 /* BASE */
 
 * {
@@ -44,6 +52,7 @@ html {
 body {
     background-color: var(--background-color);
     color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 h1, h2, h3 {

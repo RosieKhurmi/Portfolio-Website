@@ -1,8 +1,8 @@
 import "./Navbar.css";
 import React, { useState, useEffect} from "react";
-import { FaBars, FaTimes } from "react-icons/fa";
+import { FaBars, FaTimes, FaMoon, FaSun } from "react-icons/fa";
 
-const Navbar = () => {
+const Navbar = ({ darkMode, toggleDarkMode }) => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
 
@@ -45,8 +45,18 @@ const Navbar = () => {
           <button onClick={() => scrollToSection("projects")} className={activeNav === "projects" ? "active" : ""}>Projects</button>
         </li>
       </ul>
-      <div className="hamburger" onClick={handleClick}>
-        {click ? <FaTimes size={35}/> : <FaBars size={35}/>}
+      <div className="nav-controls">
+        <button 
+          className="theme-toggle" 
+          onClick={toggleDarkMode} 
+          disabled={click}
+          aria-label="Toggle dark mode"
+        >
+          {darkMode ? <FaSun size={22}/> : <FaMoon size={22}/>}
+        </button>
+        <div className="hamburger" onClick={handleClick}>
+          {click ? <FaTimes size={35}/> : <FaBars size={35}/>}
+        </div>
       </div>
     </div>
   );
