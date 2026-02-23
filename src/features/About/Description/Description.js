@@ -6,7 +6,7 @@ const Description = () => {
 
   const BAKING_URL = 'https://www.instagram.com/bakinbytes/';
   const points = [
-    "I am a software engineer building AI, Simulation and software solutions. I am focused on mastering the architecture of complex systems to develop the transferable skills necessary for building robust systems.",
+    "I'm a software engineer focused on creating everything from full-stack applications and AI to games and simulations. My goal is to master complex system architecture and develop the skills to build robust software from start to finish.",
     <>
       Beyond coding, I enjoy watching movies and TV shows, reading, fashion, fitness, art and design and documenting my baking journey on Instagram <> </>
       <a 
@@ -24,7 +24,7 @@ const Description = () => {
       <div className = 'content'>
 
       <div className='des'>
-        <h2>Hi, I am Rosie Khurmi.</h2>
+        <h2>Hey, I'm Rosie!</h2>
           <div>
             {points.map((item, index) => (
               <p key={index}>{item}</p> 
