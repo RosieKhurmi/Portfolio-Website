@@ -6,7 +6,7 @@ const Description = () => {
 
   const BAKING_URL = 'https://www.instagram.com/bakinbytes/';
   const points = [
-    "I'm a software engineer focused on creating everything from full-stack applications and AI to games and simulations. My goal is to master complex system architecture and develop the skills to build robust software from start to finish.",
+    "I'm a fa software engineer focused on creating everything from full-stack applications and AI to games and simulations. My goal is to master complex system architecture and develop the skills to build robust software from start to finish.",
     <>
       Beyond coding, I enjoy watching movies and TV shows, reading, fashion, fitness, art and design and documenting my baking journey on Instagram <> </>
       <a 

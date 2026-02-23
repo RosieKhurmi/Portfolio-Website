@@ -1,5 +1,5 @@
 .projects {
-    padding: 5rem 5rem;
+    padding: 5.5rem 5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,5 +8,5 @@
 .projects h1 {
     font-size: var(--header-font-size);
     text-align: center;
-    padding: 2rem;
+    padding: 0 0 2rem 0;
 }

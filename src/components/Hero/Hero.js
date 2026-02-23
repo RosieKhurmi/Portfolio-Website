@@ -10,7 +10,7 @@ const Hero = () => {
             <div className = "intro">
                 <h1>ROSIE KHURMI.</h1>
                 <div className="typewriter">
-                    <p>Software Engineer</p>
+                    <p>Computer Science Student @Ontario Tech</p>
                 </div>
                 <a href = {RResume} target="_blank" rel="noopener noreferrer">Resume</a>
             </div>
