@@ -4,6 +4,7 @@ import "./index.css";
 import Navbar from "./components/Navbar/Navbar";
 import Home from "./features/Home/Home";
 import About from "./features/About/About";
+import Experience from "./features/Experience/Experience";
 import Projects from "./features/Projects/Projects";
 import Footer from "./components/Footer/Footer";
 
@@ -32,6 +33,7 @@ function App() {
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Home />
       <About />
+      <Experience />
       <Projects />
       <Footer />
     </>

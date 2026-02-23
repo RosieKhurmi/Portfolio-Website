@@ -1,9 +1,9 @@
-import './Experience.css';
-import { workExperience } from './Work_Experience';
+import './WorkExperience.css';
+import { workExperience } from './WorkData';
 import { useState } from 'react';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 
-const Experience = () => {
+const WorkExperience = () => {
   const [expandedItems, setExpandedItems] = useState([]);
 
   const toggleItem = (itemId) => {
@@ -55,4 +55,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default WorkExperience;

@@ -1,10 +1,10 @@
 import React from 'react';
-import "./Works.css";
+import "./ItemList.css";
 import {useState, useEffect} from 'react'; 
-import {projectsData, projectsNav} from "./Data";
+import {projectsData, projectsNav} from "./ProjectData";
 import Item from "./Item";
 
-const Works = () => {
+const ItemList = () => {
   const [item, setItem] = useState({name: 'All'});
   const [projects, setProjects] = useState([]);
   const [active, setActive] = useState (0);
@@ -53,4 +53,4 @@ const Works = () => {
   )
 }
 
-export default Works
+export default ItemList;

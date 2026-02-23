@@ -1,12 +1,12 @@
 import React from 'react';
 import './Projects.css';
-import Works from './Works/Works';
+import ItemList from './Items/ItemList';
 
 const Projects = () => {
     return (
         <div id="projects" className='projects'>
             <h1>Projects</h1>
-            <Works />
+            <ItemList />
         </div>
     )
 }
