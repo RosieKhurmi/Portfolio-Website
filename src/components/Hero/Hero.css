@@ -9,9 +9,11 @@
 .intro {    
     display: flex;
     flex-direction: column; 
-    align-items: center;
+    align-items: flex-start;
     max-width: 800px;
+    width: 100%;
     padding: 2rem;
+    box-sizing: border-box;
 }
 
 .intro h1 {
@@ -22,6 +24,7 @@
 .typewriter {
     display: inline-block;
     padding-bottom: 2rem;
+    max-width: 100%;
 }
 
 .typewriter p {
@@ -53,7 +56,7 @@
 }
 
 .about-content {
-    text-align: center;
+    text-align: left;
     padding: 1.5rem 0 2rem 0;
 }
 
@@ -98,15 +101,25 @@
 
     .intro {
         padding: 1rem;
+        max-width: 100%;
     }
 
     .intro h1 {
         font-size: 2.5rem;
         font-weight: 650;
+        word-wrap: break-word;
+    }
+
+    .typewriter {
+        max-width: 100%;
     }
 
     .typewriter p {
         font-size: 1.3rem;
+        white-space: normal;
+        border-right: none;
+        animation: none;
+        overflow: visible;
     }
 
     .about-content h2 {

@@ -16,8 +16,7 @@ const Hero = () => {
                 </div>
                 
                 <div className="about-content">
-                    <h2>Hey, I'm Rosie!</h2>
-                    <p>I'm a software engineer focused on creating everything from full-stack applications and AI to games and simulations. My goal is to master complex system architecture and develop the skills to build robust software from start to finish.</p>
+                    <p>Hey everyone, I'm a software engineer focused on creating everything from full-stack applications and AI to games and simulations. My goal is to master complex system architecture and develop the skills to build robust software from start to finish.</p>
                     <p>Beyond coding, I enjoy watching movies and TV shows, reading, fashion, fitness, art and design and documenting my baking journey on Instagram{' '}
                         <a 
                             href={BAKING_URL} 
