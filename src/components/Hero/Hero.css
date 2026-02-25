@@ -1,15 +1,17 @@
 .hero {
-    height: 100vh;
+    min-height: 100vh;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .intro {    
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    position: relative;
     display: flex;
     flex-direction: column; 
-    align-items: center;    
+    align-items: center;
+    max-width: 800px;
+    padding: 2rem;
 }
 
 .intro h1 {
@@ -19,7 +21,7 @@
 
 .typewriter {
     display: inline-block;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
 }
 
 .typewriter p {
@@ -50,7 +52,23 @@
     to { width: 100% }
 }
 
-.intro a {
+.about-content {
+    text-align: center;
+    padding: 1.5rem 0 2rem 0;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.about-content p {
+    font-size: var(--h3-font-size);
+    padding-bottom: 1rem;
+    line-height: 1.6;
+}
+
+.resume-btn {
     padding: 1rem;
     font-size: var(--h2-font-size);
     background-color: var(--container-color);
@@ -78,16 +96,28 @@
         padding: 0.8rem;
     }
 
+    .intro {
+        padding: 1rem;
+    }
+
     .intro h1 {
         font-size: 2.5rem;
         font-weight: 650;
     }
 
-    .intro p {
+    .typewriter p {
         font-size: 1.3rem;
     }
 
-    .intro button {
+    .about-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-content p {
+        font-size: 1rem;
+    }
+
+    .resume-btn {
         padding: 0.6rem;
         font-size: 1.1rem;
     }
