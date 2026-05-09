@@ -16,7 +16,7 @@ const Hero = () => {
                 </div>
                 
                 <div className="about-content">
-                    <p>Hey everyone, I'm a software engineer focused on creating everything from full-stack applications and AI to games and simulations. My goal is to master complex system architecture and develop the skills to build robust software from start to finish.</p>
+                    <p>I am an Honours Computer Science student at Ontario Tech, specializing in Data Science with a minor in Math. My interests lie in software and AI development, and I enjoy exploring new tech and connecting with people to see how those tools can meet real-world needs. I am also passionate about STEM advocacy and making technical knowledge accessible to everyone.</p>
                     <p>Beyond coding, I enjoy watching movies and TV shows, reading, fashion, fitness, art and design and documenting my baking journey on Instagram{' '}
                         <a 
                             href={BAKING_URL} 

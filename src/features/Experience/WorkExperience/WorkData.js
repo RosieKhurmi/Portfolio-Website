@@ -1,13 +1,23 @@
 export const workExperience = [
 
     {
+        id: "International Business Machines",
+        link: "https://www.ibm.com/ca-en",
+        roles: [
+            {
+                title: "Platform Developer, IBM Client Engineering",
+                date: "May 2026 - August 2026",
+                description: "Co-creating tailored, high-impact solutions for clients"}
+        ]
+    },
+    {
         id: "Bank of Montreal",
         link: "https://www.bmo.com/en-ca/main/personal/",
         roles: [
             {
                 title: "AI Developer Intern - Audit AI and Analytics",
                 date: "January 2026 - April 2026",
-                description: "Developing AI solutions to automate manual audit processes and enable efficient data classification."
+                description: "Developed AI and data solutions to automate manual audit research and processes"
             },
             {
                 title: "Software Developer Intern - Platform Delivery",
@@ -28,7 +38,7 @@ export const workExperience = [
             {
                 title: "Teaching Assistant",
                 date: "September 2024 - December 2024",
-                description: "Reinforced core C++ concepts for students enrolled in Programming Workshop 1 by leading weekly labs, providing help sessions, and invigilating exams."
+                description: "Reinforced core C++ concepts for students by leading labs, providing help sessions, and invigilating exams."
             }
         ]
     }, 
@@ -39,7 +49,7 @@ export const workExperience = [
             {
                 title: "Junior Software Engineer (Co-Op)",
                 date: "May 2024 - August 2024",
-                description: "Building a financial investing Vertical LLM with Merlinite, MongoDB, Flask, and data pipelines."
+                description: "Developed a Vertical LLM and data pipelines using Llama and Flask to automate financial research within an R&D environment."
             }
         ]
     }
