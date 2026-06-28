@@ -1,6 +1,5 @@
 import "./Hero.css";
 import React from 'react';
-import RResume from "../../assets/Resume.pdf"
 
 const Hero = () => {
 
@@ -29,7 +28,7 @@ const Hero = () => {
                     </p>
                 </div>
 
-                <a href = {RResume} target="_blank" rel="noopener noreferrer" className="resume-btn">Resume</a>
+                <a href="#projects" className="resume-btn">Projects</a>
             </div>
 
             <div className = "social">

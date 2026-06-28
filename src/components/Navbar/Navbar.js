@@ -39,9 +39,6 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
           <button onClick={() => scrollToSection("home")} className={activeNav === "home" ? "active" : ""}>Home</button>
         </li>
         <li>
-          <button onClick={() => scrollToSection("experience")} className={activeNav === "experience" ? "active" : ""}>Experience</button>
-        </li>
-        <li>
           <button onClick={() => scrollToSection("projects")} className={activeNav === "projects" ? "active" : ""}>Projects</button>
         </li>
       </ul>
