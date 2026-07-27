@@ -29,7 +29,7 @@ const Hero = () => {
                 </div>
 
                 <div className = "button-list">
-                    <a href="#projects" className="resume-btn">Projects</a>
+                    <a href={`${process.env.PUBLIC_URL}/Resume.pdf`} className="resume-btn" target="_blank" rel="noopener noreferrer">Resume</a>
                     <div className="icon-list">
                         <a className = "icon" href = "https://github.com/RosieKhurmi" target = "_blank" rel="noreferrer">
                             <i class="uil uil-github"></i>
