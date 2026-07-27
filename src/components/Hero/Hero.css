@@ -79,9 +79,8 @@
     border: 0;
 }
 
-.social {
+.icon-list {
     display: flex;
-    flex-direction: column;
     gap: 1rem;
     align-items: center;
     position: absolute;
