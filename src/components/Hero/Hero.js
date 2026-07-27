@@ -30,15 +30,17 @@ const Hero = () => {
 
                 <div className = "button-list">
                     <a href="#projects" className="resume-btn">Projects</a>
-                    <a className = "icon" href = "https://github.com/RosieKhurmi" target = "_blank" rel="noreferrer">
-                        <i class="uil uil-github"></i>
-                    </a>
-                    <a className = "icon" href = "https://www.linkedin.com/in/rosie-khurmi-62b20a210/" target = "_blank" rel="noreferrer">
-                        <i class="uil uil-linkedin"></i>
-                    </a>
-                    <a className="icon" href="mailto:khurmirosie@gmail.com" rel="noreferrer">
-                        <i class="uil uil-envelope"></i>
-                    </a>
+                    <div className="icon-list">
+                        <a className = "icon" href = "https://github.com/RosieKhurmi" target = "_blank" rel="noreferrer">
+                            <i class="uil uil-github"></i>
+                        </a>
+                        <a className = "icon" href = "https://www.linkedin.com/in/rosie-khurmi-62b20a210/" target = "_blank" rel="noreferrer">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a className="icon" href="mailto:khurmirosie@gmail.com" rel="noreferrer">
+                            <i class="uil uil-envelope"></i>
+                        </a>
+                    </div>
                 </div>
 
             </div>
