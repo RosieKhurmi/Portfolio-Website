@@ -14,7 +14,7 @@ export const projectsData = [
     }, 
     {
         id: 'AppTracker',
-        code: "https://github.com/RosieKhurmi/HackHive",
+        code: "https://github.com/RosieKhurmi/AppTracker",
         img: AppTracker,
         tech: ['JavaScript', 'Chrome Extension', 'Google Apps Script', 'REST API'],
         text: "A Chrome extension that automatically captures job applications and logs them directly to a Google Sheet via Apps Script."
